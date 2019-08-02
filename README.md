@@ -9,5 +9,10 @@ cmake is a kind of tool used for compile .c or .cpp program
 
 the most important grammer:
 > ADD_SUBDIRECTORY(source_dir [binary_dir] [EXCLUDE_FROM_ALL])
+> SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+> SET(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
 
+应该把这两条指令写在工程的CMakeLists.txt还是src目录下的
+CMakeLists.txt，把握一个简单的原则，在哪里ADD_EXECUTABLE或ADD_LIBRARY，
+如果需要改变目标存放路径，就在哪里加入上述的定义
 
