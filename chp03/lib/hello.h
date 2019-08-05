@@ -1,5 +1,3 @@
-#ifndef HELLO_H
-#define HELLO_H
+#pragma once
 #include <stdio.h>
 void HelloFunc();
-#endif
