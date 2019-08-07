@@ -13,6 +13,6 @@ namespace dev{
                 virtual ~Network();
                 void transfer();
                 const string accpept(string message);
-        }
+        };
     }
 }
