@@ -18,12 +18,7 @@ int main(){
     
     int dvd = cs.divide(100,99);
 
-    cout << "cs output is :" << cs.sum;
-    cout << endl;
-    cout << "cp output is :" << cp.doCryption();
-    cout << endl;
-    cout << "nt output is :" << nt.accpept("ABC");
-    cout << endl;
+    printf("the dvd is %d\n",dvd);
 
     return 0;
 }
