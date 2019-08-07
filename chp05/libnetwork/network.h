@@ -12,7 +12,7 @@ namespace dev{
                 Network(string msg):msg(msg){
                 }
                 virtual ~Network(){
-                    cout << "network nothing to do"
+                    cout << "network nothing to do";
                 }
                 void transfer();
                 const string accpept(string message);
