@@ -18,9 +18,12 @@ int main(){
     
     int dvd = cs.divide(100,99);
 
-    cout << "cs output is :" << cs.sum << " the dvd is: " << dvd << endl;
-    cout << "cp output is :" << cp.doCryption() << endl;
-    cout << "nt output is :" << nt.accpept << endl;
+    cout << "cs output is :" << cs.sum;
+    cout << endl;
+    cout << "cp output is :" << cp.doCryption();
+    cout << endl;
+    cout << "nt output is :" << nt.accpept("ABC");
+    cout << endl;
 
     return 0;
 }
