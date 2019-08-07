@@ -20,6 +20,7 @@ int main(){
     cout << cp.doCryption();
     cout << endl;
     cout << dvd <<endl;
+    cout << nt.accpept("this is a message");
 
     return 0;
 }
