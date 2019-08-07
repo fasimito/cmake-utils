@@ -17,7 +17,8 @@ int main(){
         << endl;
     
     int dvd = cs.divide(100,99);
-
+    cout << cp.doCryption();
+    cout << endl;
     cout << dvd <<endl;
 
     return 0;
