@@ -18,7 +18,7 @@ int main(){
     
     int dvd = cs.divide(100,99);
 
-    printf("the dvd is %d\n",dvd);
+    cout << dvd <<endl;
 
     return 0;
 }
