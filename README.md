@@ -16,3 +16,8 @@ the most important grammer:
 CMakeLists.txt，把握一个简单的原则，在哪里ADD_EXECUTABLE或ADD_LIBRARY，
 如果需要改变目标存放路径，就在哪里加入上述的定义
 
+## important orders
+
+> cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+
+这个命令可以设置安装的前缀位置
